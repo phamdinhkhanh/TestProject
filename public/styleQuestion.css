@@ -1,0 +1,20 @@
+.showResult {
+  margin-bottom:5%;
+  margin-top: 5%;
+}
+
+.form input{
+  width: 80px;
+}
+
+.showResult span{
+  margin-right: 50px;
+}
+
+.showResult label{
+  margin-left: 50px;
+}
+
+.text-center {
+  text-align: center;
+}

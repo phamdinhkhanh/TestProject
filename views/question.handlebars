@@ -1,0 +1,13 @@
+<h1>Phần question</h1>
+<p class="text-center">{{question}}</p>
+<div class="text-center showResult">
+    <label for="">Yes:</label>
+    <span>{{yes}}</span>
+    <label for="">No:</label>
+    <span>{{no}}</span>
+</div>
+
+<form class="form text-center" action="/question/{{id}}" method="post">
+    <input type="submit" name="yes" class="btn btn-primary mr-5" value="yes">
+    <input type="submit" name="no" class="btn btn-danger ml-5" value="no">
+</form>
